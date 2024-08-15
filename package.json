@@ -3,22 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3100",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "@fincode/node": "^1.0.2",
+    "@vanilla-extract/css": "^1.15.3",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vanilla-extract/next-plugin": "^2.4.3",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
-  }
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "pnpm@9.7.1"
 }
