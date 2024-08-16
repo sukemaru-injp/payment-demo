@@ -5,8 +5,5 @@ import fincodeClient from "@/lib/fin";
 const payType = "Card";
 
 export const Register: FC = () => {
-  return (
-    <>
-    </>
-  )
+	return <></>;
 };
