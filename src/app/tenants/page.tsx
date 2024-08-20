@@ -22,6 +22,7 @@ type Props = {
 };
 
 export const ListView: FC<Props> = ({ list }) => {
+	console.log("list", list);
 	return (
 		<div>
 			{list.map((v) => (
